@@ -1,0 +1,71 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Raleway", system-ui;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    background-color: rgb(29, 29, 86);
+    height: 30px;
+    padding: 20px;
+
+}
+
+.menu{
+    float: left;
+}
+
+.menu a{
+    color: white;
+    margin: 7px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.logo{
+    float: right;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.bannier{
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.profil{
+    float: left;
+}
+.profil img{
+    width: 500px;
+    height: 600px;
+    margin-right: 90px;
+}
+
+.min-about{
+    width: 400px;
+    float: right;
+    padding: 10px;
+}
+
+.min-about p{
+    text-align: justify;
+}
+
+#footer{
+    background-color: rgb(29, 29, 86);
+    padding: 20px;
+}
+
+#footer p{
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
