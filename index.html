@@ -1,50 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Enregistrement</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portefolio</title>
-    <link rel="stylesheet" href="CSS/style.css">
-
-    <!--Font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-    <div class="nav">
-        <div class="menu">
-            <a href="#home">Home</a>
-            <a href="#footer">About</a>
-            <a href="#home">Experiences</a>
-        </div>
-        <div class="logo">
-            <a href="#home">
-                <img src="IMG/1723242184048-removebg-preview.png" alt="">
-            </a>
-        </div>
-    </header>
+    <h2>FORMULAIRE D'INSCRIPTION</h2>
+    <table align="center">
+        <form method="post" action="traitement.php">
+                <tr>
+                    <td><label for="text">Id :</label></td>
+                    <td><input type="text" name="txtid"></td><br><br>
+                </tr><br>
 
-    <div class="bannier">
-        <div class="profil">
-            <img src="IMG/1724617902799.jpg" alt="">
-        </div>
-        <div class="min-about">
-            <h2>BIENVENUE SUR MON PORTEFOLIO</h2>
-            <p>
-                AKSANTI SCHOLARCHIP HEC est un programme mis en place par la coordination estudiantine 
-                de la haute école de commerce à travers le ministère des Affaires Sociales qui vise à 
-                fournir un soutien financier essentiel aux étudiants Orphelins de la Haute Ecole de Commerce. 
-                Ce programme a pour objectif de réduire les obstacles financiers auxquels ces étudiants sont 
-                confrontés afin de leur permettre de poursuivre leurs études dans des conditions optimales.
-                <a href="#about">Savoir plus...</a>
-            </p>
-        </div>
+                <tr>
+                    <td><label for="text">User :</label></td>
+                    <td><input type="text" name="txtuser"></td><br><br>
+                </tr><br>
+                <tr>
+                    <td><label for="text">Password :</label></td>
+                    <td><input type="text" name="txtpassword"></td><br><br>
+                </tr>
 
-    </div>
-
-<div id="footer">
-    <p>CopyRight &copy; 2024</p>
-</div>
+                <tr>
+                    <td></td><td><input type="submit" value="Envoyer" name="Envoyer"></td>
+                </tr>
+        </form>
+    </table>
+    
 </body>
 </html>
